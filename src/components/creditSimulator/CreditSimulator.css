@@ -1,0 +1,45 @@
+.container {
+  background: #003b67;
+  padding: 30px;
+  text-align: center;
+  color: #fff;
+  min-width: 400px;
+  height: 500px;
+}
+
+@media (max-width: 500px) {
+  .container {
+    min-width: 0;
+  }
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 10px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.total-container {
+  background: #012f53;
+  padding: 6px 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  gap: 10px;
+}
+
+.fee-amount-label {
+  font-size: 14px;
+}
+
+.fee-amount {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
